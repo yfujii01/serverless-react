@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "local-db": "sls dynamodb install",
+    "remove-db": "sls dynamodb remove",
     "dev": "SLS_DEBUG=* sls offline start",
     "deploy": "SLS_DEBUG=* sls deploy",
     "deploy-client": "SLS_DEBUG=* serverless client deploy",
